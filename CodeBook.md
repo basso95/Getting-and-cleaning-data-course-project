@@ -2,10 +2,10 @@
 
 The script 'run_analysis.R' performs the 5 steps described in the course project's definition.
 
-1) First it reads the files needed for the analysis. Then create two data sets, one for the train and one for the test, giving the correct name to each variable. Finally, using the 'rbind()' function creates an unique and big data set.
-2) Second, only those columns with the mean and standard deviation measures are taken from the whole dataset. This using the 'grep()' function that matches certain words with the names of the columns.
-3) Third uses descriptive activity names to name the activities in the data set, using the join function
-4) Finally, it creates a new data set and a text file with the average of each variable for each activity and each subject.
+* First it reads the files needed for the analysis. Then create two data sets, one for the train and one for the test, giving the correct name to each variable. Finally, using the 'rbind()' function creates an unique and big data set.
+* Second, only those columns with the mean and standard deviation measures are taken from the whole dataset. This using the 'grep()' function that matches certain words with the names of the columns.
+* Third uses descriptive activity names to name the activities in the data set, using the join function
+* Finally, it creates a new data set and a text file with the average of each variable for each activity and each subject.
 
 # Variables
 
